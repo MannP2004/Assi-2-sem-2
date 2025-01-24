@@ -1,0 +1,110 @@
+html{scroll-behavior: smooth;}
+/*fonts*/
+@font-face {
+   font-family: 'Hellobarbies';
+    src: url(./fonts/HelloBarbies.otf);
+    font-weight: auto;
+}
+@font-face {
+    font-family: 'QuaaykopBold';
+    src: url(./fonts/QuaaykopBold-ZpZlz.ttf);
+    font-weight: auto;
+}
+body{
+    background-image: url('./image/logo-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+font-family: 'STIX Two Math', sans-serif;
+}
+h2,h3,h4,h5,h6{
+    font-family: 'Hellobarbies',sans-serif;
+    font-size: 4em;
+}
+li,a{
+    font-family: 'American Typewriter', sans-serif;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+p{
+    font-family: 'Hellobarbies', sans-serif;
+    font-size: 1.2em;
+}
+/*header*/
+header{
+    display: flex;
+    width: 100%;
+    height: 125px;
+    align-items: center;
+    background-color: rgba(25, 22, 22, 0.99);
+    padding: 5px;
+    position: fixed;
+}
+header div{
+    flex-grow: 1;
+    height: 135px;
+    width: auto;
+}
+header img{
+    width: auto;
+    height: 100%;
+}
+header menu{
+    list-style: none;
+    display: flex;
+}
+header li{
+    padding: 0 140px;
+}
+header li a{
+    color: #f8f8f8;
+}
+/*masthead*/
+.masthead{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.masthead h1{
+    font-size: 4em;
+    color: #f8f8f8;
+    text-shadow: 4px 2px 4px ;
+    padding-top: 150px;
+}
+/*main content*/
+.r-2{
+    display: flex;
+    font-size: 13px;
+}
+.row-1 div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 5%;
+    background-color: rgb(31, 32, 35);
+    color: white;
+
+}
+.row-2{
+    padding: 5%;
+    text-align: center;
+   color: white;
+background-image: url("./image/coldplay.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.row-2 h2{
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+mark{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-family: 'QuaaykopBold', sans-serif;
+    font-size: 27px;
+}
+
